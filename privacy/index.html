@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chuans — Privacy Policy</title>
+  <meta name="description" content="How Chuans for iPhone and iPad processes audio, transcripts, provider credentials and support messages.">
+  <link rel="icon" type="image/png" href="../app-icon.png"><link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="shell nav"><a class="brand" href="../"><img src="../app-icon.png" alt="" width="42" height="42">Chuans</a><nav aria-label="Main"><a href="../">Support</a><a href="./" aria-current="page">Privacy</a></nav></div></header>
+<main id="main"><div class="shell legal">
+  <p class="eyebrow">Your information</p><h1>Privacy policy</h1><p class="fine">Effective 6 October 2026 · Chuans for iPhone and iPad</p>
+  <p>Chuans is provided by Chenggang Chen. This policy explains how the app and this support website handle information. For privacy questions, contact <a href="mailto:aladdin.ccg@gmail.com">aladdin.ccg@gmail.com</a>.</p>
+  <p class="notice"><strong>Your selected features determine where processing happens.</strong> On-device recognition can be combined with cloud translation or review. Turning off Record Audio prevents an optional saved recording; it does not prevent the selected engine from processing or receiving audio.</p>
+  <nav class="toc" aria-label="Privacy sections"><a href="#processing">Processing</a><a href="#storage">Local storage</a><a href="#services">External services</a><a href="#retention">Retention &amp; choices</a><a href="#contact">Contact</a></nav>
+  <section id="processing"><h2>1. Audio, transcripts and translation</h2>
+    <p>Chuans processes microphone audio, audio files you select, and audio captured through the system-audio feature when you start those functions. System-audio capture processes audio, not ReplayKit video frames. Transcripts, translations and related session information are used to show and save your results.</p>
+    <p><strong>On-device features:</strong> supported Apple speech recognition, downloaded local speech models, and Apple translation language assets perform their corresponding processing on the device. The app may connect to Apple or a model host to check availability or download required assets.</p>
+    <p><strong>Cloud features:</strong> selecting cloud transcription sends audio to your configured service. Cloud translation or source review sends transcript text and processing instructions. Available services include Google Gemini, Alibaba Cloud/Aliyun, OpenAI and xAI; DeepSeek is available for supported text tasks. Requests use the provider account and credentials you configure.</p>
+    <p>If you configure a custom or proxy endpoint, its operator may also receive the requests. Depending on the provider and task, processing can involve a temporary remote file upload. Review the provider’s policies, retention controls and processing locations before sending sensitive content.</p>
+    <p>Chuans does not route transcription or translation through a developer-operated processing server. The app does not include advertising, cross-app tracking, or an automatic developer analytics-upload service.</p>
+  </section>
+  <section id="storage"><h2>2. Information stored on your device</h2>
+    <ul><li><strong>History:</strong> transcripts, optional recordings, structured result files and session-resumption information are stored in the app’s local documents.</li><li><strong>Credentials:</strong> provider API keys and other secret fields are stored using Apple Keychain. Nonsecret settings, selected models and endpoints are stored in app preferences.</li><li><strong>Temporary audio:</strong> the system-audio feature uses shared temporary audio packets; acknowledged packets are removed as processing advances.</li><li><strong>Exports and backups:</strong> files you export go to the destination you choose. Device backups may include app files according to your Apple/device settings.</li></ul>
+    <p>Removing a provider from one task’s list does not necessarily erase its shared account credentials, which may still be used in other parts of the app.</p>
+  </section>
+  <section id="services"><h2>3. Apple and other external services</h2>
+    <p><strong>Subscriptions:</strong> Apple handles purchases, payment details and subscription management. Chuans uses StoreKit purchase and entitlement information to determine access. The app does not receive your full payment-card details.</p>
+    <p><strong>Model downloads:</strong> optional local models can be downloaded from services such as Hugging Face or a configured mirror. These hosts receive connection information, such as your IP address, when you download files.</p>
+    <p><strong>Tutorials:</strong> video links open YouTube. YouTube handles viewing activity under its own policies. This website links to tutorials and does not embed a video player.</p>
+    <p>Cloud providers, Apple, model hosts and export destinations operate under their own privacy policies and terms. Their retention periods and processing practices are not controlled by Chuans.</p>
+  </section>
+  <section><h2>4. This website and support email</h2>
+    <p>This is a static support website. We have not added advertising, analytics scripts, contact forms or tracking cookies. The hosting service may process normal connection information and operational logs needed to deliver and secure the site.</p>
+    <p>If you email support, we receive your email address, message and any attachments you choose to send. These are processed through Gmail and used to answer your request and investigate the issue. Please do not include API keys, identity documents, or private audio/transcripts unless genuinely necessary for your request.</p>
+  </section>
+  <section id="retention"><h2>5. Retention, deletion and your choices</h2>
+    <p>You choose the input, processing engine, provider and optional recording settings. You can stop a session, revoke device permissions, avoid cloud features, and delete unwanted files from History. Deleting a History item removes that selected file and its associated structured rows file; it may not remove a separate audio file, transcript, export or backup. Delete those copies separately where they are stored.</p>
+    <p>The app attempts to remove certain temporary provider uploads when processing finishes, but remote cleanup is not guaranteed. Contact the relevant cloud provider or use its account controls for data it retains. Uninstalling Chuans should not be relied on to revoke provider API credentials; revoke keys with the provider when needed.</p>
+    <p>Support correspondence is kept while needed to handle requests and maintain necessary support records, subject to applicable requirements. You can ask us to delete correspondence or explain what support information we hold. Rights of access, correction, deletion or objection may apply depending on your location. We may need to verify a request, and we cannot delete information held only on your device or by an independent service.</p>
+    <p>Chuans does not require a separate developer-hosted user account. Ending a subscription does not itself delete recordings, transcripts, settings or provider credentials.</p>
+  </section>
+  <section><h2>6. Use responsibly</h2><p>Audio and transcripts may contain information about other people. Obtain any required permission before recording or sharing conversations. Consider the sensitivity of the material before choosing a cloud provider or sharing an export.</p></section>
+  <section id="contact"><h2>7. Questions and policy updates</h2><p>Contact Chenggang Chen at <a href="mailto:aladdin.ccg@gmail.com">aladdin.ccg@gmail.com</a> for support or privacy questions. Changes to this policy will be posted here with an updated effective date.</p></section>
+</div></main>
+<footer><div class="shell footer-row"><p>© 2026 Chenggang Chen · Chuans</p><p><a href="../">Support</a> · <a href="mailto:aladdin.ccg@gmail.com">Contact</a></p></div></footer>
+</body></html>
